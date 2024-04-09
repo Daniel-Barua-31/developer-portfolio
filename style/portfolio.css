@@ -1,0 +1,291 @@
+*{
+    margin : 0 ;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Nav bar */
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.primary-color{
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.primary-btn {
+
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    border: 0;
+    background-color: #FD6E0A;  
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+
+
+/* Banner and header Style */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    margin-bottom: 96px;
+}
+
+.banner {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+    
+    
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.banner-main-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.banner p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    margin-bottom: 30px;
+}
+.sub-btn {
+    border: 1px solid #fd6e0a;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fd6e0a;
+    margin-left: 30px;
+
+}
+
+
+
+
+/* Section */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 160px;
+}
+
+
+
+
+/* About Me */
+
+.about{
+
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    margin-bottom: 123px;
+
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: gray;
+}
+
+
+
+
+/*  section table  */
+
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+thead{
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: gray;
+}
+tbody{
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+/* What I DO */
+
+.skills-container{
+    display: flex;
+    gap : 24px;
+    margin-top: 50px;
+}
+.skill {
+    border-radius: 5px;
+    padding: 30px;
+    width: 267px;
+    height: 377px;
+    box-shadow: 0 6px 50px 0 rgba(201, 38, 38, 0.06);
+    background-color: white;
+    
+
+}
+
+.skill-title{
+
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 30px;
+    
+}
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    margin-top: 20px
+}
+
+
+
+/* Resume */
+
+.resume-container{
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.sub-container .section-title{
+    text-align: left;
+}
+
+
+
+.s-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.uni{
+    font-weight: 600;
+    font-size: 20px;
+    color: gray;
+}
+
+.edu-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.resume-btn{
+    margin-top: 30px;
+    text-align: center;    
+}
+
+
+
+/* Footer */
+
+.foot-container{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 113px;
+}
+
+
+
+.box-1{
+    padding: 201px 260px;
+
+}
+
+.box-1 .icon {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.box-1 .section-title{
+    text-align: left;
+}
+
+.footer-form input {
+
+    border: 0 ;
+    display: block;
+    
+    /* width: 461px;
+    height: 64px; */
+
+    width: 100%;
+    height: 64px;
+    padding-left: 30px;
+
+    margin-bottom: 24px;
+    
+}
+
+.footer-form textarea {
+    border-radius: 5px;
+    width: 461px;
+    height: 180px;
+    margin-bottom: 24px
+}
